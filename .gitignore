@@ -1,0 +1,34 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Firebase credentials - NEVER commit these
+app/google-services.json
+GoogleService-Info.plist
+
+# Keystore / signing keys
+*.jks
+*.keystore
+secrets.properties
+
+# App build outputs
+app/build/
+build/
+
+# Scratch / temp files
+scratch/
+
+# Kotlin tooling error logs
+.kotlin/
